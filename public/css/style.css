@@ -1,0 +1,15 @@
+.content {
+    font-size:          1.2em;
+    color:              red;
+}
+input{
+    display:            block;
+    margin:             2em 1em;
+}
+form{
+    font-size:          1.6em;
+}
+.hide{
+/*	display:			none;*/
+	
+}

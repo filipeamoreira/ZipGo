@@ -1,0 +1,6 @@
+%h1 Upload File
+
+%form{:action => "/upload", :method => "post", :enctype => "multipart/form-data", :multipart => true}
+    %input{:type => "hidden", :name => "file", :class => "hide"}
+    %input{:type => "button", :id => "button", :value => "Add File"}
+    %input{:type => "submit", :value => "Upload"}
