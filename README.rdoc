@@ -1,0 +1,11 @@
+== Welcome to Zip and Go
+
+Zip and Go is a multi file upload and url shortener micro app.
+
+Built using Sinatra and Mongo.
+
+== License
+
+Zip and Go is released under the LPGL license
+
+Copyright 2010 (C) Filipe Moreira
