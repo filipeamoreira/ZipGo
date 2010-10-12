@@ -6,6 +6,6 @@ Built using Sinatra and Mongo.
 
 == License
 
-Zip and Go is released under the LPGL license
+Zip and Go is released under the MIT license
 
 Copyright 2010 (C) Filipe Moreira
