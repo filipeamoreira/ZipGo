@@ -1,0 +1,50 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.0)
+    backports (1.18.2)
+    bson (1.0.4)
+    bson_ext (1.0.4)
+    haml (3.0.21)
+    i18n (0.4.1)
+    jnunemaker-validatable (1.8.4)
+      activesupport (>= 2.3.4)
+    json (1.4.6)
+    mongo (1.0.7)
+      bson (>= 1.0.4)
+    mongo_mapper (0.8.3)
+      activesupport (>= 2.3.4)
+      jnunemaker-validatable (~> 1.8.4)
+      plucky (~> 0.3.3)
+    monkey-lib (0.5.4)
+      backports
+    plucky (0.3.4)
+      mongo (~> 1.0.7)
+    rack (1.2.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-advanced-routes (0.5.1)
+      monkey-lib (~> 0.5.0)
+      sinatra (~> 1.0)
+      sinatra-sugar (~> 0.5.0)
+    sinatra-reloader (0.5.0)
+      sinatra (~> 1.0)
+      sinatra-advanced-routes (~> 0.5.0)
+    sinatra-sugar (0.5.0)
+      monkey-lib (~> 0.5.0)
+      sinatra (~> 1.0)
+    zip (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson (= 1.0.4)
+  bson_ext (= 1.0.4)
+  haml
+  i18n
+  json (= 1.4.6)
+  mongo_mapper (= 0.8.3)
+  sinatra (= 1.0)
+  sinatra-reloader
+  zip

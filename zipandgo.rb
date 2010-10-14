@@ -1,7 +1,8 @@
-require 'rubygems'
-%w(sinatra sinatra/reloader haml zip/zipfilesystem fileutils).each { |gem| require gem}
+%w(sinatra/reloader i18n mongo_mapper uri digest/md5 haml zip fileutils).each { |gem| require gem}
+require 'active_support/lazy_load_hooks'
 
 set :haml, {:format => :html5}
+#set :views, File.dirname(FILE) + "/views"
 
 enable :run
 
@@ -78,3 +79,4 @@ post '/contact' do
   end
   "Thank you"
 end
+Sinatra::Application.run!

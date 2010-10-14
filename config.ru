@@ -3,5 +3,5 @@ require 'bundler'
 Bundler.setup
 
 require 'sinatra'
-require 'sinatra/reloader'
+require './zipandgo'
 run Sinatra::Application
